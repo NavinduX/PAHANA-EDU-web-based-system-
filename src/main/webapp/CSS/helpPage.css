@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+.main-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.content-area {
+  flex: 1;
+  padding: 40px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+h4 {
+  color: #34495e;
+  margin-bottom: 12px;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+/* Help container layout */
+.help-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* Help sections */
+.help-section {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.help-section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.help-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Help items */
+.help-item {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #ff6b3c;
+  transition: background-color 0.3s ease;
+}
+
+.help-item:hover {
+  background: #e9ecef;
+}
+
+.help-item h4 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.help-item p {
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Lists styling */
+.help-item ul,
+.help-item ol {
+  margin: 10px 0;
+  padding-left: 20px;
+  color: #555;
+}
+
+.help-item li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.help-item ol li {
+  margin-bottom: 10px;
+}
+
+/* Strong text styling */
+.help-item strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .help-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .content-area {
+    padding: 20px;
+    margin-top: 120px;
+  }
+
+  .help-section {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  .help-item {
+    padding: 15px;
+  }
+}
