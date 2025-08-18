@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xmlns="http://java.sun.com/xml/ns/javaee" 
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+         id="WebApp_ID" version="3.0">
+
+    <display-name>pahanaEdu_bookshop</display-name>
+    
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddCustomerServlet</servlet-name>
+        <servlet-class>servlet.AddCustomerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddCustomerServlet</servlet-name>
+        <url-pattern>/addCustomer</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditCustomerServlet</servlet-name>
+        <servlet-class>servlet.EditCustomerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EditCustomerServlet</servlet-name>
+        <url-pattern>/editCustomer</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GenerateBillServlet</servlet-name>
+        <servlet-class>servlet.GenerateBillServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GenerateBillServlet</servlet-name>
+        <url-pattern>/generateBill</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ManageItemServlet</servlet-name>
+        <servlet-class>servlet.ManageItemServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ManageItemServlet</servlet-name>
+        <url-pattern>/manageItem</url-pattern>
+    </servlet-mapping>
+
+</web-app>
