@@ -1,0 +1,2 @@
+Pahana Edu is a leading bookshop in Colombo City, serving hundreds of customers each month. Currently, customer account details are maintained manually, and the company requires a computerized online (web based) system to manage billing information efficiently. 
+Each customer account is assigned a unique account number. New customers must be registered in the system, which should collect details such as the account number, name, address, telephone number, and units consumed.
