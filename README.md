@@ -144,56 +144,7 @@ gitGraph
    merge feature/billing
    commit id: "Release v1.0"
 
-   Directory structure:
-└── navindux-pahana-edu-web-based-system-/
-    ├── README.md
-    └── src/
-        └── main/
-            ├── java/
-            │   ├── controller/
-            │   │   └── DBConnect.java
-            │   ├── model/
-            │   │   ├── Bill.java
-            │   │   ├── BillItem.java
-            │   │   ├── Customer.java
-            │   │   ├── Item.java
-            │   │   └── User.java
-            │   ├── services/
-            │   │   ├── BillItemService.java
-            │   │   ├── BillService.java
-            │   │   ├── CustomerService.java
-            │   │   ├── ItemService.java
-            │   │   └── UserService.java
-            │   └── servlet/
-            │       ├── BillServlet.java
-            │       ├── CustomerServlet.java
-            │       ├── EditCustomerServlet.java
-            │       ├── ItemServlet.java
-            │       ├── LoginServlet.java
-            │       ├── LogoutServlet.java
-            │       ├── ManageCustomerServlet.java
-            │       └── ViewCustomerServlet.java
-            └── webapp/
-                ├── addCustomer.jsp
-                ├── calculateBill.jsp
-                ├── editCustomer.jsp
-                ├── help.jsp
-                ├── home.jsp
-                ├── login.jsp
-                ├── manageCustomer.jsp
-                ├── manageItem.jsp
-                ├── navbar.jsp
-                ├── viewCustomer.jsp
-                ├── CSS/
-                │   ├── billPage.css
-                │   ├── customerPage.css
-                │   ├── helpPage.css
-                │   ├── homePage.css
-                │   ├── itemPage.css
-                │   ├── loginPage.css
-                │   └── navbar.css
-                └── META-INF/
-                    └── MANIFEST.MF
+ <img width="975" height="1163" alt="image" src="https://github.com/user-attachments/assets/9e1963b1-5b4e-4c9a-b1fd-b1a98375bf8b" />
 
 
 Main branch: Stable code
