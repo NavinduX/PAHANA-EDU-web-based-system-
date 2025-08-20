@@ -3,8 +3,6 @@
 ⚡ A modern, secure, and scalable system to transform bookshop operations into a digital experience.
 
 
-/assets/banner.png
-![PAHANA EDU Banner](assets/banner.png)
 
 
 
@@ -56,15 +54,37 @@ flowchart TB
 
 🧩 Tech Stack
 
-Frontend: JSP, CSS, Bootstrap
+Frontend (Presentation Layer):
 
-Backend: Java Servlets, JDBC
+JSP (JavaServer Pages) → For dynamic web pages
 
-Database: MySQL
+CSS → For styling and layout
 
-Server: Apache Tomcat
+JSTL (JSP Standard Tag Library) → For UI logic simplification
 
-Version Control: Git + GitHub
+Backend (Business Logic Layer):
+
+Java Servlets → Handle requests and responses
+
+Service Classes → Encapsulate business logic (e.g., BillService, CustomerService)
+
+DAO Pattern (Data Access Object) → Database communication layer
+
+Database (Data Access Layer):
+
+MySQL → Relational database storing customers, items, users, and bills
+
+JDBC (Java Database Connectivity) → Connect Java Servlets to MySQL
+
+Server & Deployment:
+
+Apache Tomcat → Web server to run Servlets & JSP
+
+WAR Deployment → Packaged web archive for deployment
+
+Version Control & Collaboration:
+
+Git & GitHub → Version control and collaborative development
 
 🧩 Design Patterns Used
 
@@ -191,7 +211,6 @@ Bugfix branches: Patches & hotfixes
 📊 Interactive dashboards & analytics
 
 👨‍💻 Author
-
 👤 NavinduX
 
 
